@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Draw the sun (circle) -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M100,40
+                         A60,60 0 1,1 100,160
+                         A60,60 0 1,1 100,40"
+        android:strokeWidth="0" />
+
+    <!-- Rays around the sun -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M100,20 L100,0" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M100,180 L100,200" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M20,100 L0,100" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M180,100 L200,100" />
+
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M30,30 L10,10" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M170,30 L190,10" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M30,170 L10,190" />
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M170,170 L190,190" />
+</vector>
